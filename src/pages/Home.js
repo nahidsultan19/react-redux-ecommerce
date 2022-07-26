@@ -3,7 +3,7 @@ import Products from './Products';
 
 const Home = () => {
     return (
-        <div className='min-h-screen'>
+        <div className=''>
             <Products />
             {/* <button className='btn btn-primary'>add</button> */}
         </div>

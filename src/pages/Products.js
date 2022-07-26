@@ -12,7 +12,7 @@ const Products = () => {
     }, [])
 
     return (
-        <div className='min-h-screen'>
+        <div className=''>
             {isLoading && <h2>Loading</h2>}
             {error && <h2>{error}</h2>}
             {products.map(product => <Product key={product.id} product={product}></Product>)}
