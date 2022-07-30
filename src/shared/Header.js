@@ -6,6 +6,7 @@ const Header = ({ children }) => {
     const menu = <>
         <li><NavLink to='/'>Home</NavLink></li>
         <li><NavLink to='/products'>Products</NavLink></li>
+        <li><NavLink to='/about'>About Us</NavLink></li>
     </>
     return (
         <div class="drawer">
